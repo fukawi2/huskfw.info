@@ -1,0 +1,16 @@
+site_name: huskfw
+site_url: https://huskfw.info/
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Download: download.md
+  - FAQ: faq.md
+  - Documentation:
+    - Installation: docs/install.md
+    - Configuration: docs/configuration.md
+    - Language: language/index.md
+    - Define: language/define.md
+    - 'Rule Syntax': language/syntax.md
+    - Keywords: language/keywords.md
+  - About: about.md
