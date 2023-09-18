@@ -13,4 +13,5 @@ nav:
     - Define: language/define.md
     - 'Rule Syntax': language/syntax.md
     - Keywords: language/keywords.md
+  - Bug Tracker: https://github.com/fukawi2/husk/issues
   - About: about.md
