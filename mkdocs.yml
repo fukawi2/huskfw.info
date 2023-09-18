@@ -7,8 +7,8 @@ nav:
   - Download: download.md
   - FAQ: faq.md
   - Documentation:
-    - Installation: docs/install.md
-    - Configuration: docs/configuration.md
+    - Installation: user-guide/install.md
+    - Configuration: user-guide/configuration.md
     - Language: language/index.md
     - Define: language/define.md
     - 'Rule Syntax': language/syntax.md

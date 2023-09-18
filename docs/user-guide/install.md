@@ -17,22 +17,21 @@ make install
 ## Initial Configuration
 
 ```
-/etc/husk/
-    cp /usr/local/share/doc/husk/doc/rules.conf.standalone ./rules.conf
+cp /usr/local/share/doc/husk/doc/rules.conf.standalone /etc/husk/rules.conf
 ```
 
-Edit husk.conf
-Edit interfaces.conf
-Edit rules.conf
-Test compile: husk
-Compile and activate ruleset: fire
+1. Edit `husk.conf`
+1. Edit `interfaces.conf`
+1. Edit `rules.conf`
+1. Test compile: `husk`
+1. Compile and activate ruleset: `fire`
 
 ## Updates
 
 ```
 cd /usr/local/src/husk/
 git pull
-Optional: make fallback (Create a backup of current files)
+make fallback    (Optional: creates a backup of current files)
 make test
 make install
 ```
