@@ -66,13 +66,13 @@ If you need to forward incoming traffic from one interface to another using the 
 the 'map' rule. For example, to NAT port 80 traffic coming in the "NET" interface to an internal server:
 
 ```
-map in NET protocol tcp port 80 74.132.12.56 to 172.16.1.1
+map in NET protocol tcp port 80 142.250.70.142 to 172.16.1.1
 ```
 
 You can also translate the ports from one to another by appending to the destination port:
 
 ```
-map in NET destination address 74.132.12.56:80 to 172.16.1.1:8080
+map in NET destination address 142.250.70.142:80 to 172.16.1.1:8080
 ```
 
 Don't forget that this only does the Destination NAT. You must also write a corresponding rule to allow the traffic

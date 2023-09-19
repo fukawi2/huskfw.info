@@ -34,7 +34,7 @@ common spoof ZONE ADDRESS/PREFIX
 ```
 common spoof LAN 10.0.0.0/24
 common spoof LAN 10.0.1.0/24
-common spoof DMZ 74.125.237.16/29
+common spoof DMZ 142.250.70.136/29
 ```
 
 ---
