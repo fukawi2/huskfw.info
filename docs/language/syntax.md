@@ -81,7 +81,7 @@ web server could look like this to allow the whole world access:
 
 ```
 define rules NET to DMZ
-accept proto tcp port http destination address172.16.1.1
+accept proto tcp port http destination address 172.16.1.1
 end define
 ```
 
